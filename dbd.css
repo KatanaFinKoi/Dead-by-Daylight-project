@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start; */
+    background-color: #2b3848;
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/fog-background.jpeg);
+    background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgba(146, 162, 165, 0.9);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(163, 0, 5);
+    padding: 50px;
+    margin: 25px, 0;
+    border: 5px solid;
+    border-color:black;
+    border-radius: 10px;
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/fog-gif.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+    color: rgba(146, 162, 165, 1);
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#page-header{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: rgba(15, 16, 20, 1);
+    box-shadow: 0 0 50px 8px rgba(222, 36, 28, 1);
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/dbd-opening-gif.gif);
+    background-size: cover;
+    background-position: 50% 100%;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#page-header h1{
+    padding: 40px 20px 150px 20px;
+    color: rgba(192, 207, 208, 0.9);
+    text-shadow: 0 0 25px rgba(222, 36, 28, 1);
+    font-weight: bold;
+}
+
+#page-header h2{
+    text-align: center;
+    margin: 0px 250px 5px 250px;
+    border: 5px;
+    border-radius: 5px;
+    background-image: none;
+    background-color: rgba(15, 16, 20, 0.9);
+    box-shadow: 0 0 70px 8px rgba(222, 36, 28, 1);
+    color: rgba(192, 207, 208, 0.7);
+}
+
+#content-list{
+    padding: 30px;
+    margin: 20px 500px;
+    border: 8px solid;
+    border-color: rgba(250, 5, 15, 0.35); 
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+a {
+    color: rgba(145, 128, 182, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(222, 36, 28, 1);
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    padding-left: 0;
+}
+
+    /* Style the list items */
+ul li {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/IconCurrency_iridescentShards.webp); /* Path to your image */
+    background-size: 20px 20px; /* Set the size of the bullet image */
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 0px;
+    padding-left: 30px; /* Space between the image and text */
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro, #killer-bios, #survivor-bios, #lore-deep-dive, #gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 200%;
+    margin: 50px;
+}
+
+#intro p{
+    margin: 100px 50px 75px 50px;
+    padding: 25px;
+    border: 5px solid;
+    border-color: rgba(222, 36, 28, 1);
+    border-style: groove;
+}
+
+.bios {
+    margin: 80px;
+    padding: 15px;
+    border: 5px solid;
+    border-color: rgba(222, 36, 28, 1);
+    border-style: groove;
+    /* box-shadow: 0 0 50px 10px rgba(80, 35, 100, 1); */
+}
+
+.bios h3{
+    margin: 5px 350px 1000px 350px;
+    color: rgba(146, 162, 165, 1);
+    border: 5px;
+    box-shadow: 0 0 30px 15px rgba(146, 162, 165, 0.9);
+    font-weight: 600;
+    background-color: black;
+}
+
+#trapper-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/trapper-gif2.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#wraith-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/wraith-gif.gif);
+    background-size: cover;
+    background-position: 45% 50%;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#hillbilly-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/hillbilly-gif.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#nurse-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/nurse-gif.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#doctor-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/doctor-gif.webp);
+    background-size: cover;
+    background-position: 80% 50%;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#shape-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/shape-gif.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#dwight-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/dwight-gif2.gif);
+    background-size: cover;
+    background-position: 30% 50%;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#meg-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/meg-gif.gif);
+    background-size: cover;
+    background-position: right;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#claudette-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/claudette-gif.gif);
+    background-size: cover;
+    background-position: 20% 50%;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#jake-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/jake-gif.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#nea-bio {
+    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/nea-gif.gif);
+    background-size: cover;
+    background-position: left;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#laurie-bio {
+    background-image: url(other-images/laurie-strode-gif.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.bio-img {
+    align-items: center;
+    visibility: hidden;
+}
+
+.block-of-text p{
+    margin: 15px;
+    border: 5px;
+}
+
+.block-of-text{
+    margin: 15px;
+    /* border: 5px solid;
+    border-color: rgba(250, 5, 15, 0.35); */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+    #page-header {
+        width: 75%;
+    }
+}
