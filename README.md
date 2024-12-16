@@ -20,6 +20,8 @@ Welcome to the **Survivor & Killer Profiles** project, an in-depth exploration o
 
 ![Website Screenshot 1](website-screen-captures/Screenshot%202024-12-16%20at%201.30.58%20PM.png)
 
+The website can be found live at: https://katanafinkoi.github.io/Dead-by-Daylight-project/
+
 ## Introduction
 
 Dive into the world of *Dead by Daylight*, a multiplayer survival horror game that pits Survivors against a relentless Killer in a series of deadly Trials. This project serves as a comprehensive guide for players and lore enthusiasts alike, offering detailed character profiles, lore analysis, and visual assets to enhance your understanding of the game.
