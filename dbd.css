@@ -11,7 +11,7 @@ body{
     min-height: 100vh;
     justify-content: flex-start; */
     background-color: #2b3848;
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/fog-background.jpeg);
+    background-image: url(other-images/fog-background.jpeg);
     background-size: cover;
     background-position:left;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ h2 {
     border: 5px solid;
     border-color:black;
     border-radius: 10px;
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/fog-gif.gif);
+    background-image: url(other-images/fog-gif.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -77,7 +77,7 @@ p {
     border-radius: 10px;
     border-color: rgba(15, 16, 20, 1);
     box-shadow: 0 0 50px 8px rgba(222, 36, 28, 1);
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/dbd-opening-gif.gif);
+    background-image: url(other-images/dbd-opening-gif.gif);
     background-size: cover;
     background-position: 50% 100%;
     background-attachment: local;
@@ -129,7 +129,7 @@ ul {
 
     /* Style the list items */
 ul li {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/IconCurrency_iridescentShards.webp); /* Path to your image */
+    background-image: url(other-images/IconCurrency_iridescentShards.webp); /* Path to your image */
     background-size: 20px 20px; /* Set the size of the bullet image */
     background-repeat: no-repeat;
     position: relative;
@@ -176,7 +176,7 @@ ul li {
 }
 
 #trapper-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/trapper-gif2.webp);
+    background-image: url(other-images/trapper-gif2.webp);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -185,7 +185,7 @@ ul li {
 }
 
 #wraith-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/wraith-gif.gif);
+    background-image: url(other-images/wraith-gif.gif);
     background-size: cover;
     background-position: 45% 50%;
     background-attachment: local;
@@ -194,7 +194,7 @@ ul li {
 }
 
 #hillbilly-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/hillbilly-gif.gif);
+    background-image: url(other-images/hillbilly-gif.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -203,7 +203,7 @@ ul li {
 }
 
 #nurse-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/nurse-gif.gif);
+    background-image: url(other-images/nurse-gif.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -212,7 +212,7 @@ ul li {
 }
 
 #doctor-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/doctor-gif.webp);
+    background-image: url(other-images/doctor-gif.webp);
     background-size: cover;
     background-position: 80% 50%;
     background-attachment: local;
@@ -221,7 +221,7 @@ ul li {
 }
 
 #shape-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/shape-gif.gif);
+    background-image: url(other-images/shape-gif.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -230,7 +230,7 @@ ul li {
 }
 
 #dwight-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/dwight-gif2.gif);
+    background-image: url(other-images/dwight-gif2.gif);
     background-size: cover;
     background-position: 30% 50%;
     background-attachment: local;
@@ -239,7 +239,7 @@ ul li {
 }
 
 #meg-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/meg-gif.gif);
+    background-image: url(other-images/meg-gif.gif);
     background-size: cover;
     background-position: right;
     background-attachment: local;
@@ -248,7 +248,7 @@ ul li {
 }
 
 #claudette-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/claudette-gif.gif);
+    background-image: url(other-images/claudette-gif.gif);
     background-size: cover;
     background-position: 20% 50%;
     background-attachment: local;
@@ -257,7 +257,7 @@ ul li {
 }
 
 #jake-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/jake-gif.gif);
+    background-image: url(other-images/jake-gif.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -266,7 +266,7 @@ ul li {
 }
 
 #nea-bio {
-    background-image: url(/Users/liam/Desktop/Dead-by-daylight-website-project/other-images/nea-gif.gif);
+    background-image: url(other-images/nea-gif.gif);
     background-size: cover;
     background-position: left;
     background-attachment: local;
