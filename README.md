@@ -57,7 +57,6 @@ Visualize the terror and beauty of *Dead by Daylight* with a curated gallery of:
 
 - **HTML**: For structuring the content.
 - **CSS**: For styling and visual enhancements.
-- **JavaScript** (Optional): For interactive elements.
 
 ## Contributing
 

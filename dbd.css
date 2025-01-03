@@ -300,6 +300,39 @@ ul li {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.lore-section {
+    margin: 50px;
+    padding: 15px;
+    border: 5px solid;
+    border-color: rgba(222, 36, 28, 1);
+    border-style: groove;
+}
+
+.lore-section-header {
+    margin: 25px 350px 25px 350px;
+    color: rgba(146, 162, 165, 1);
+    border: 5px;
+    box-shadow: 0 0 30px 15px rgba(146, 162, 165, 0.9);
+    font-weight: 600;
+    background-color: black;
+}
+
+.lore-subheader {
+    margin: 25px 0 25px 0;
+    color: rgb(163, 0, 5);
+    font-weight: 1000;
+}
+
+.lore-p {
+    margin: 15px;
+}
+
+.gallery-section {
+    justify-content: center;
+    margin: 50px;
+    align-items: center;
+}
+
 @media screen and (max-width: 768px) {
     #page-header {
         width: 75%;
