@@ -61,6 +61,28 @@ p {
     color: rgba(146, 162, 165, 1);
 }
 
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #7a0000;
+    color: white;
+    cursor: pointer;
+    padding: 18px 22px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease, background-color 0.3s;
+}
+
+#back-to-top:hover {
+    background-color: #500000;
+}
+
 #header-container {
     display: flex;
     justify-content: center;
@@ -211,6 +233,24 @@ ul li {
     transition: all 0.3s ease;
 }
 
+#shape-bio {
+    background-image: url(other-images/shape-gif.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#hag-bio {
+    background-image: url(other-images/hag.gif);
+    background-size: cover;
+    background-position: 70% 50%;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
 #doctor-bio {
     background-image: url(other-images/doctor-gif.webp);
     background-size: cover;
@@ -220,14 +260,6 @@ ul li {
     transition: all 0.3s ease;
 }
 
-#shape-bio {
-    background-image: url(other-images/shape-gif.gif);
-    background-size: cover;
-    background-position: center;
-    background-attachment: local;
-    box-sizing: border-box;
-    transition: all 0.3s ease;
-}
 
 #dwight-bio {
     background-image: url(other-images/dwight-gif2.gif);
