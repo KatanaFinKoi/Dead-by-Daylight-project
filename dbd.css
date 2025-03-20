@@ -198,7 +198,7 @@ ul li {
 }
 
 #trapper-bio {
-    background-image: url(other-images/trapper-gif2.webp);
+    background-image: url(killer-gif/trapper.webp);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -207,7 +207,7 @@ ul li {
 }
 
 #wraith-bio {
-    background-image: url(other-images/wraith-gif.gif);
+    background-image: url(killer-gif/wraith.gif);
     background-size: cover;
     background-position: 45% 50%;
     background-attachment: local;
@@ -216,7 +216,7 @@ ul li {
 }
 
 #hillbilly-bio {
-    background-image: url(other-images/hillbilly-gif.gif);
+    background-image: url(killer-gif/hillbilly.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -225,7 +225,7 @@ ul li {
 }
 
 #nurse-bio {
-    background-image: url(other-images/nurse-gif.gif);
+    background-image: url(killer-gif/nurse.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -234,7 +234,7 @@ ul li {
 }
 
 #shape-bio {
-    background-image: url(other-images/shape-gif.gif);
+    background-image: url(killer-gif/shape.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -243,7 +243,7 @@ ul li {
 }
 
 #hag-bio {
-    background-image: url(other-images/hag.gif);
+    background-image: url(killer-gif/hag.gif);
     background-size: cover;
     background-position: 70% 50%;
     background-attachment: local;
@@ -252,7 +252,7 @@ ul li {
 }
 
 #doctor-bio {
-    background-image: url(other-images/doctor-gif.webp);
+    background-image: url(killer-gif/doctor.webp);
     background-size: cover;
     background-position: 80% 50%;
     background-attachment: local;
@@ -260,9 +260,18 @@ ul li {
     transition: all 0.3s ease;
 }
 
+#huntress-bio {
+    background-image: url(killer-gif/huntress.gif);
+    background-size: cover;
+    background-position: 55% 50%;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
 
 #dwight-bio {
-    background-image: url(other-images/dwight-gif2.gif);
+    background-image: url(survivor-gif/dwight.gif);
     background-size: cover;
     background-position: 30% 50%;
     background-attachment: local;
@@ -271,7 +280,7 @@ ul li {
 }
 
 #meg-bio {
-    background-image: url(other-images/meg-gif.gif);
+    background-image: url(survivor-gif/meg.gif);
     background-size: cover;
     background-position: right;
     background-attachment: local;
@@ -280,7 +289,7 @@ ul li {
 }
 
 #claudette-bio {
-    background-image: url(other-images/claudette-gif.gif);
+    background-image: url(survivor-gif/claudette.gif);
     background-size: cover;
     background-position: 20% 50%;
     background-attachment: local;
@@ -289,7 +298,7 @@ ul li {
 }
 
 #jake-bio {
-    background-image: url(other-images/jake-gif.gif);
+    background-image: url(survivor-gif/jake.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
@@ -298,7 +307,7 @@ ul li {
 }
 
 #nea-bio {
-    background-image: url(other-images/nea-gif.gif);
+    background-image: url(survivor-gif/nea.gif);
     background-size: cover;
     background-position: left;
     background-attachment: local;
@@ -307,7 +316,7 @@ ul li {
 }
 
 #laurie-bio {
-    background-image: url(other-images/laurie-strode-gif.gif);
+    background-image: url(survivor-gif/laurie-strode.gif);
     background-size: cover;
     background-position: center;
     background-attachment: local;
