@@ -333,6 +333,15 @@ ul li {
     transition: all 0.3s ease;
 }
 
+#bill-bio {
+    background-image: url(survivor-gif/bill.gif);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
 .bio-img {
     align-items: center;
     visibility: hidden;
