@@ -324,6 +324,15 @@ ul li {
     transition: all 0.3s ease;
 }
 
+#ace-bio {
+    background-image: url(survivor-gif/ace.gif);
+    background-size: cover;
+    background-position: 50% 0%;;
+    background-attachment: local;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
 .bio-img {
     align-items: center;
     visibility: hidden;
